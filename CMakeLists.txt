@@ -36,7 +36,7 @@ catkin_package(
 # CXX flags 
 set(CMAKE_CXX_FLAGS "-ggdb -g -O3 -w -std=c++11 -fpermissive") # -fPIC -fpermissive
 
-set(LIBREAL_SENSE_DIR "/home/davidz/work/tmp/librealsense")
+set(LIBREAL_SENSE_DIR "/home/gccrobot/3rdlibrary/librealsense")
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations

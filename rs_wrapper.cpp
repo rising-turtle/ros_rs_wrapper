@@ -4,8 +4,8 @@
 #include <map>
 #include <librealsense2/rs.hpp>
 #include <algorithm>
-#include <cv.h>
-#include <highgui.h>
+// #include <cv.h> # works for opencv3 or older version but not opencv4 
+#include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
 
 #include <cv_bridge/cv_bridge.h>
@@ -136,6 +136,7 @@ int main(int argc, char * argv[]) try
             usleep(5000); 
         }
         std::cout<<"publish image "<<++img_seq<<std::endl; 
+        usleep(1000*1000);
     }
 
 
