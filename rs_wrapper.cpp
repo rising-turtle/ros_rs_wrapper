@@ -136,7 +136,7 @@ int main(int argc, char * argv[]) try
             usleep(5000); 
         }
         std::cout<<"publish image "<<++img_seq<<std::endl; 
-        usleep(1000*1000);
+        usleep(3000*1000); // wait for 3 seconds
     }
 
 
